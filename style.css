@@ -3,4 +3,18 @@
 text-decoration-color: rgb(8, 84, 31);
 text-align: center;
 }
+ nav{
+    background-color: crimson;
+ }
+ nav>a{
+    color: aqua;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+ }
+
+ nav>a:hover{
+    background-color: black;
+ }
+
  
