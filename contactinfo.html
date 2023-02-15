@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-   
 <nav> <a href="index.html">back</a></nav>
 <link rel="stylesheet" href="style.css">
 <body>
+    <p class="center"> Contact Me </p>
+    <p class="center">You can give me your email addres and I will ansewr as soon as I'm able to.</p>
+    <form class="center"
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
+    <hr>
+    <label>Name</label>
+    <br>
+    <input placeholder="name" name="name">
+    <br><br>
+    <label>Email/Phone Number</label>
+    <br>
+    <input placeholder="Name@gmail.com/Phone" name="gmails/phones">
+    <br><br>
+    <label>Best Contact time</label>
+    <br>
+    <input type="time" name="time">
+    <Br><br>
+    <label>Commet</label>
+    <br>
+    <textarea name="comment"></textarea>
+    <br><br> 
+    <input type="checkbox" name="temrs">
+    <label>I agree to terms and conditions</label>
+    <br><br>
+    <label>How to contact you?</label>
+    <br>
+    <input type="radio" name="contactTypes" value="Phone"><label>Phone</label>
+    <br>
+    <input type="radio" name="contactTypes" value="Email"><label>Email</label>
+    <br>    
+    <input type="radio" name="contactTypes" value="Linkedin"><label>Linkedin</label>
+    <br>    
+    <input type="radio" name="contactTypes" value="Discord"><label>Discord</label>  
+    <br><br>
+    <input type="submit"><input type="reset">
     
+   
+    <input name="send-to" value="nvasiuta@brooklynsteamcenter.org" hidden>
+    </form>
+    <hr>
 </body>
 </html>
