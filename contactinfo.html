@@ -5,19 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contact me page</title>
 </head>
-<nav> <a href="index.html">back</a></nav>
+<nav> 
+    <a href="index.html">Home Page</a>
+    <a href="second.html">More About Me </a>
+    <a href="projects.html">My Projects</a>
+    </nav>
 <link rel="stylesheet" href="style.css">
 <body>
     
-    <p class="center"> Contact Me </p>
+    <h2 class="center"> Contact Me </h1>
     <p class="center">Leave you contact info below so I would be able to contact you later.</p>
     <form class="center"
  action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
     method="post">
     <hr>
-    <label>Name</label>
+    <h3><label>Name</label>
     <br>
     <input placeholder="Name" name="name">
     <br><br>
@@ -51,6 +55,7 @@
     <br><br>
     <input type="submit">
     <input type="reset">
+    </h3>
     
    
     <input name="send-to" value="nvasiuta@brooklynsteamcenter.org" hidden>

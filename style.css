@@ -41,3 +41,9 @@ input[type=submit]:hover{
 
 input[type=reset]:hover{
     background-color: rgb(243, 164, 164);}
+h2{
+    font-size: 12px
+    font-style: italic;
+}
+h3{ font-size: medium;font-style: ;}
+p{font-size: medium; font-style: oblique;}
