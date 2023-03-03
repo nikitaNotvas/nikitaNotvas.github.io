@@ -40,10 +40,16 @@ input[type=submit]:hover{
 }
 
 input[type=reset]:hover{
-    background-color: rgb(243, 164, 164);}
+    background-color: rgb(244, 128, 128);}
 h2{
     font-size: 12px
-    font-style: italic;
-}
-h3{ font-size: medium;font-style: ;}
+    font-style;italic:}
+
+h3{ font-size: medium;}
+
 p{font-size: medium; font-style: oblique;}
+
+body{
+    max-width: 2000px;
+    margin: auto;
+}
