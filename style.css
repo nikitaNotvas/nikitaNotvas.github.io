@@ -20,6 +20,12 @@ text-align: center;
 .center{
     text-align: center;
 }
+.rigth{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
 
 input,textarea{
     background-color: rgba(167, 240, 179, 0.631);
@@ -41,15 +47,13 @@ input[type=submit]:hover{
 
 input[type=reset]:hover{
     background-color: rgb(244, 128, 128);}
-h2{
-    font-size: 12px
-    font-style;italic:}
+
 
 h3{ font-size: medium;}
 
 p{font-size: medium; font-style: oblique;}
 
 body{
-    max-width: 2000px;
+    max-width: 1080px;
     margin: auto;
 }
