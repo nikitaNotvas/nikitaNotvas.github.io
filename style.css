@@ -1,6 +1,7 @@
 
 #name{
-text-decoration-color: rgb(29, 231, 89);
+text-decoration-color: rgb(255, 255, 255);
+color: aliceblue;
 text-align: center;
 }
  nav{
@@ -26,6 +27,7 @@ text-align: center;
 .left{
     text-align: left;
 }
+ul{color: aliceblue;}
 
 input,textarea{
     background-color: rgba(167, 240, 179, 0.631);
@@ -49,11 +51,15 @@ input[type=reset]:hover{
     background-color: rgb(244, 128, 128);}
 
 
-h3{ font-size: medium;}
+h3{ font-size: medium; color: aliceblue;}
 
-p{font-size: medium; font-style: oblique;}
+p{font-size: medium; font-style: oblique; color: aliceblue;}
 
 body{
     max-width: 1080px;
     margin: auto;
+    background-image: url("background.jpeg");
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-size: cover;
 }
