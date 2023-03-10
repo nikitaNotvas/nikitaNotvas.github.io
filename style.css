@@ -20,7 +20,7 @@ text-align: center;
 
 .center{
     text-align: center;
-    color: rgb(172, 174, 176);
+    color: rgb(255, 255, 255);
 }
 .rigth{
     text-align: right;
@@ -53,9 +53,9 @@ input[type=reset]:hover{
     background-color: rgb(244, 128, 128);}
 
 
-h3{ font-size: medium; color: aliceblue;}
+h3{ font-size: medium; color: rgb(255, 255, 255);}
 
-p{font-size: medium; font-style: oblique; color: aliceblue;}
+p{font-size: medium; font-style: oblique; color: rgb(255, 255, 255);}
 
 body{
     max-width: 1080px;
@@ -71,3 +71,12 @@ a:hover {
     color: rgb(255, 0, 208);
   }
 a:link{color: crimson;}
+
+div.container {
+    text-align: center;
+  }
+
+ ul.ulcenter{
+    display: inline-block;
+    text-align: left;
+  }
