@@ -20,6 +20,7 @@ text-align: center;
 
 .center{
     text-align: center;
+    color: rgb(172, 174, 176);
 }
 .rigth{
     text-align: right;
@@ -27,6 +28,7 @@ text-align: center;
 .left{
     text-align: left;
 }
+
 ul{color: aliceblue;}
 
 input,textarea{
@@ -63,3 +65,9 @@ body{
     background-position: 0 0;
     background-size: cover;
 }
+a:visited{color: aqua;}
+a:active{color: beige;}
+a:hover {
+    color: rgb(255, 0, 208);
+  }
+a:link{color: crimson;}
