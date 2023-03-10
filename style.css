@@ -64,6 +64,7 @@ body{
     background-attachment: fixed;
     background-position: 0 0;
     background-size: cover;
+    text-align: center;
 }
 a:visited{color: aqua;}
 a:active{color: beige;}
@@ -72,11 +73,7 @@ a:hover {
   }
 a:link{color: crimson;}
 
-div.container {
-    text-align: center;
-  }
-
- ul.ulcenter{
+ul {
     display: inline-block;
     text-align: left;
-  }
+}
