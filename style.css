@@ -63,7 +63,10 @@ h3{ font-size: medium; color: rgb(255, 255, 255);}
 p{font-size: medium; font-style: oblique; color: rgb(255, 255, 255);}
 
 body{
+    min-height: 600px;
+    min-width:400px ;
     max-width: 1080px;
+    max-height:1080px ;
     margin: auto;
     background-image: url("background.jpeg");
     background-attachment: fixed;
@@ -81,4 +84,7 @@ a:link{color: crimson;}
 ul {
     display: inline-block;
     text-align: left;
+}
+@media only screen and (max-width: 600px) {
+
 }
