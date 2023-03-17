@@ -81,7 +81,7 @@ a:active{color: beige;}
 a:hover {
     color: rgb(255, 0, 208);
   }
-a:link{color: crimson;}
+a:link{color: rgb(234, 232, 232);}
 
 ul {
     display: inline-block;
