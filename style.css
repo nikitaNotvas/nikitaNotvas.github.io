@@ -9,12 +9,14 @@ text-align: center;
  nav{
     background-color: rgb(22, 90, 48);
     position: sticky;
+    text-align: center;
  }
  nav>a{
     color: rgb(249, 249, 249);
     text-decoration: none;
     padding: 8px;
     display: inline-block;
+    text-align: center;
  }
 
  nav>a:hover{
@@ -85,6 +87,13 @@ ul {
     display: inline-block;
     text-align: left;
 }
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 480px) {
+    nav {
+        font-size: small;
+        text-align: center;
+        margin: auto;
+    }
+    nav > a {
+        text-align: center;
+    }
 }
