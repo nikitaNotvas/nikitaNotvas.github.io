@@ -7,12 +7,12 @@ text-align: center;
 
 
  nav{
-    background-color: rgb(22, 90, 48);
+    background-color: rgb(142, 144, 185);
     position: sticky;
     text-align: center;
  }
  nav>a{
-    color: rgb(249, 249, 249);
+    color: rgb(0, 0, 255);
     text-decoration: none;
     padding: 8px;
     display: inline-block;
@@ -20,7 +20,7 @@ text-align: center;
  }
 
  nav>a:hover{
-    background-color: black;
+    background-color: rgb(48, 0, 192);
  }
 
 
